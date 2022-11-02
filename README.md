@@ -3,3 +3,5 @@
 The program we made gets a movie name and returns a poster!
 It saves the poster in MongoDB for caching porposes. 
 
+# Please follow the recommended setup on this repo: https://github.com/HadarNeu/UserData-WebApp.git
+# Enjoy! :)
