@@ -1,0 +1,96 @@
+<html lang="en">
+        <head>
+            <title>Search A Movie Poster </title>
+<style>
+		/* To color the background */
+		body {
+         background-color:white;
+		}
+		h1{
+          color:#027530;
+		}
+		#container{
+		margin:10% auto;
+
+		}
+		#name{
+		    width: 20%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+
+		}
+		#div-submit{
+				 background-color: #4CAF50; /* Green */
+                 border: none;
+                 color: white;
+                 padding: 16px 32px;
+                 display: inline-block;
+                 font-size: 16px;
+                 transition-duration: 0.4s;
+                 cursor: pointer;
+		}
+		#div-submit{
+            background-color: white;
+            color: black;
+            border: 2px solid #4CAF50;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 20%;
+        }
+
+        #div-submit:hover {
+             background-color: #4CAF50;
+             color: white;
+        }
+		.form{
+		margin:10% auto;
+		width:100%;
+		}
+		#input-1{
+		text-align:center;
+		margin:3% auto
+        }
+        #inform{
+        background-color:white;
+        margin-left:5%;
+        margin-right:5%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border: 3px solid #2F9E5C;
+        padding: 15px;
+        }
+         #inform:hover{
+         background-color: #D6F0D6;
+             color: white;
+        }
+	</style>
+
+        </head>
+        <body>
+            <div id="container">
+                <div class="form">
+                    <h1 style="font-family:Matura MT Script Capitals" align="center">&#11088 Welcome 2 Room 2 App &#11088 </h1>
+
+                    <form action="/search" method="post">
+
+                        <div id="inform">
+
+                        <div id="input-1">
+                            <br>
+                            <input  placeholder="&#128269Insert Movie Name" type="text" name="name" id='name' required>
+                        </div>
+                        <br>
+                            <input  id="div-submit" type="submit" value="submit">
+                        </div>
+
+            </form>
+                </div>
+            </div>
+        </body>
+    </html>
