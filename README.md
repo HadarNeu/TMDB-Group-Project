@@ -7,10 +7,10 @@ It saves the poster in MongoDB for caching porposes.
 # Enjoy! :)
 
 # This is the app setup infrastructure:
-![Alt text](./Images/ArchitectureDiagram.png?raw=true "ArchitectureDiagram")
+![alt text](./Images/ArchitectureDiagram.png?raw=true "ArchitectureDiagram")
 
 # This is the app flow:
-![Alt text](./Images/AppFlow.png?raw=true "AppFlow")
+![alt text](./Images/AppFlow.png?raw=true "AppFlow")
 
 # This one is for my Hebrew speakers! for your preference:
-![Alt text](./Images/flowChartHebrew.png?raw=true "flowChartHebrew")
+![alt text](./Images/flowChartHebrew.png?raw=true "flowChartHebrew")
